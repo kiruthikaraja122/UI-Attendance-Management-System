@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ada Employee Details</title>
+    <link rel="stylesheet"href="style1234.css"/> 
+
+</head>
+<body>
+    <table>
+        <tr>
+            <td>
+                <form autocomplete="off" onsubmit="onFormSubmit()">
+                    <div>
+                        <label for="EmployeeId">EmployeeId</label>
+                        <input type ="text" name="EmployeeId"id="EmployeeId">
+
+                    </div>
+                    <div>
+                        <label for="Name">Name</label>
+                        <input type ="text" name="Name"id="Name">
+
+
+                    </div>
+                    <div>
+                        <label for="Date">Date</label>
+                        <input type ="text" name="Date"id="Date">
+
+                    </div>
+                    <div>
+                        <input type="submit" value ="submit">
+                        <input type="reset"  value ="Reset">
+                    </div>
+                </form>
+                <td>
+
+                    <table class = "list" id = "storeList">
+                        <thead>
+                            <tr>
+                                <th>EmployeeId</th>
+                                <th>Name</th>
+                                <th>Date</th>
+            
+                                
+                            </tr>
+                        </thead>
+                    </table>
+                </td>
+            </td>
+        </tr>
+    </table>
+    <script type="text/javascript" src="./attendance.js"></script>
+</body>
+</html>
